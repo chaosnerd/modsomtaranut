@@ -1,8 +1,9 @@
 ### Welcome to ModsomTaranut Project
 
-พวกเรากำลังทำ โปรเจ็คจบเกี่ยวกับ IOT สาขาวิศวกรรมซอฟต์แวร์
+### พวกเรากำลังทำโปรเจ็คจบเกี่ยวกับ IOT 
+## สาขาวิศวกรรมซอฟต์แวร์
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
 
 ### Markdown
 
