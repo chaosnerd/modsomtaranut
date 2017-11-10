@@ -10,8 +10,8 @@
 - ทำเว็ป
 
 นุ๊ก 
-- hardware
-- sensor
+- APP
+- DETECT BREATH
 
 
 ### Markdown
