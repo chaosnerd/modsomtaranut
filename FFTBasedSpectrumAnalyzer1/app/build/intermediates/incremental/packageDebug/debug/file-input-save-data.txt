@@ -1,0 +1,33 @@
+#Internal package file, do not edit.
+#Sun Nov 26 13:37:55 ICT 2017
+2.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/15
+5.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex
+5.set=DEX
+3.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/16
+6.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
+2.set=DEX
+4.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_
+7.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=10
+0.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex
+5.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/11
+8.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/main.xml
+4.set=ANDROID_RESOURCE
+6.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/12
+1.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex
+9.set=ANDROID_RESOURCE
+9.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_/resources.arsc
+1.set=DEX
+7.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_
+2.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
+6.set=DEX
+0.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/13
+8.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_
+3.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
+3.set=DEX
+1.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/transforms/dexMerger/debug/14
+9.base=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_
+4.file=/Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml
+8.set=ANDROID_RESOURCE
+0.set=DEX

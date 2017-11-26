@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:3:5-58
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:5-43
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:7:15-40
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:8:2-84
+	android:name
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:8:19-65
+application
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:10:5-28:19
+	android:label
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:11:9-45
+activity#com.somitsolutions.android.spectrumanalyzer.SoundRecordAndAnalysisActivity
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:15:9-26:20
+	android:label
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:16:13-45
+	android:noHistory
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:17:13-102
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:23:27-74
+supports-screens
+ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:30:2-36:21
+	android:largeScreens
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:34:19-46
+	android:smallScreens
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:32:19-46
+	android:normalScreens
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:33:19-47
+	android:resizeable
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:31:8-33
+	android:anyDensity
+		ADDED from /Users/tarathontanwinit/Desktop/FFTBasedSpectrumAnalyzer1/app/src/main/AndroidManifest.xml:35:19-44
