@@ -38,7 +38,7 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
 
     AudioRecord audioRecord;
     private RealDoubleFFT transformer;
-    int blockSize = /*2048;// = */1024;
+    int blockSize = /*2048;// = */4096;
     Button startStopButton;
     boolean started = false;
     boolean CANCELLED_FLAG = false;
@@ -134,7 +134,7 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
         @Override
         protected void onProgressUpdate(double[]...progress) {
         	Log.e("RecordingProgress", "Displaying in progress");
-            double mMaxFFTSample = 150.0;
+            double mMaxFFTSample = 7000;
 
             Log.d("Test:", Integer.toString(progress[0].length));
             if(progress[0].length == 1 ){
@@ -149,8 +149,8 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
                 if (width > 512) {
                     canvasDisplaySpectrum.drawColor(Color.BLACK);
                     for (int i = 0; i < progress[0].length; i++) {
-                        int x = 2 * i;
-                        int downy = (int) (150 - (progress[0][i] * 10));
+                        float x = i/4;
+                        int downy = (int) (150 - (progress[0][i] * 25));
                         int upy = 150;
                         if(downy < mMaxFFTSample)
                         {
@@ -286,7 +286,7 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
             
             imageViewDisplaySectrum = new ImageView(this);
             if(width > 512){
-            	bitmapDisplaySpectrum = Bitmap.createBitmap((int)512,(int)300,Bitmap.Config.ARGB_8888);
+            	bitmapDisplaySpectrum = Bitmap.createBitmap((int)width,(int)300,Bitmap.Config.ARGB_8888);
             }
             else{
             	 bitmapDisplaySpectrum = Bitmap.createBitmap((int)256,(int)150,Bitmap.Config.ARGB_8888);
@@ -301,11 +301,11 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
             if(width >512){
             	//imageViewDisplaySectrum.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT));
             	LinearLayout.LayoutParams layoutParams_imageViewDisplaySpectrum=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-                ((MarginLayoutParams) layoutParams_imageViewDisplaySpectrum).setMargins(100, 600, 0, 0);
+                ((MarginLayoutParams) layoutParams_imageViewDisplaySpectrum).setMargins(0, 600, 0, 0);
                 imageViewDisplaySectrum.setLayoutParams(layoutParams_imageViewDisplaySpectrum);
                 layoutParams_imageViewScale= new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
                 //layoutParams_imageViewScale.gravity = Gravity.CENTER_HORIZONTAL;
-                ((MarginLayoutParams) layoutParams_imageViewScale).setMargins(100, 20, 0, 0);
+                ((MarginLayoutParams) layoutParams_imageViewScale).setMargins(0, 20, 0, 0);
                 
             }
             
@@ -382,7 +382,7 @@ public class SoundRecordAndAnalysisActivity extends Activity implements OnClickL
         		super(context);
         		// TODO Auto-generated constructor stub
         		if(width >512){
-        			bitmapScale = Bitmap.createBitmap((int)512,(int)50,Bitmap.Config.ARGB_8888);
+        			bitmapScale = Bitmap.createBitmap(width,(int)50,Bitmap.Config.ARGB_8888);
                 }
         		else{
         			bitmapScale =  Bitmap.createBitmap((int)256,(int)50,Bitmap.Config.ARGB_8888);
